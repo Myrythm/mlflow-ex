@@ -28,14 +28,11 @@ This project explores Machine Learning experimentation using **MLflow** for trac
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd per
+git clone https://github.com/Myrythm/mlflow-ex.git
 
 # Install dependencies with uv
 uv sync
 
-# Or with pip
-pip install -r requirements.txt
 ```
 
 ## 🏃 Running the MLflow Server
