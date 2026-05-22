@@ -40,10 +40,16 @@ uv sync
 Start the MLflow server before running any script:
 
 ```bash
-mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlartifacts --host 127.0.0.1 --port 5000
+uv run mlflow server --host 127.0.0.1 --port 5000
 ```
 
 Open the MLflow UI in your browser: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+## 🏃 Running the Python Script
+eg. deeplearning.py
+```bash
+uv run deeplearning.py
+```
 
 ---
 
